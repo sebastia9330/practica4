@@ -2,10 +2,9 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-body{
     margin: 0;
 }
+
 .contenedor{
     width: 1200px;
     border: 3px solid #000;
@@ -23,5 +22,25 @@ body{
     line-height: 100px;
 }
 .menu{
-    
+    background-color: #ccc; 
+}
+.menu ul{
+    padding: 0;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 15px;
+    border-width: 0px  1px;
+    border-style: solid;
+    border-color: #eee;
+}
+.menu ul li a{
+    color: #444;
+}
+.menu ul li:hover{
+    background-color: #2368cfb9;
+    cursor: pointer;
+}
+.menu ul li:hover a{
+    color: #fff;
 }
